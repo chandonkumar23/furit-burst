@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<html data-theme="light">
+
+</html>
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furit Burst</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+  <header>
+    <nav class="max-w-[80%] mx-auto my-5">
+      <div class="navbar lg:bg-red-400 rounded-full">
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li class="text-white"><a>Home</a></li>
+            <li class="text-white"><a>About Us</a></li>
+            <li class="text-white"><a>Shop</a></li>
+            <li class="text-white"><a>All furit</a></li>
+          </ul>
+        </div>
+        <div></div>
+        <div class="navbar-center">
+          <div class="flex justify-center items-center mx-auto lg:px-6">
+            <img src="images/logo.png" alt="">
+            <h2 class="2xl font-extrabold lg:text-5xl">Furit Burst</h2>
+          </div>
+          <div class="mx-24 lg:hidden ">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+                </svg>
+              </label>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-24">
+                <li><a>Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All furit</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="hidden md:block">
+          <div class="px-20  "><input type="text" placeholder="Type here"
+              class="input input-bordered input-warning rounded-full  max-w-sm lg: w-[400px]" /></div>
+        </div>
+        <div class="navbar-center -mx-32 hidden md:block ">
+          <button class="btn btn-ghost btn-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </nav>
+    <section class="max-w-[80%] mx-auto my-5 ">
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative max-w-full">
+          <img class="opacity-50" src="/images/banner4.png" class="w-full" />
+          <div class="absolute justify-center mx-96 top-28 text-black text-2xl lg:text-5xl font-extrabold">Exotic tastes
+            at your
+            doorste</div>
+          <button
+            class="absolute  justify-center items-center mx-96 top-60 inline-block cursor-pointer rounded-md bg-orange-500 px-4 py-3 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-gray-900">
+            Button
+          </button>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <img class="opacity-50" src="/images/banner3.png" class="w-full" />
+          <div class="absolute justify-center mx-96 top-28 text-black text-2xl lg:text-5xl font-extrabold">Exotic tastes
+            at your
+            doorste</div>
+          <button
+            class="absolute  justify-center items-center mx-96 top-60 inline-block cursor-pointer rounded-md bg-orange-500 px-4 py-3 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-gray-900">
+            Button
+          </button>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+          <img class="opacity-50" src="/images/banner2.png" class="w-full" />
+          <div class="absolute justify-center mx-96 top-28 text-black text-2xl lg:text-5xl font-extrabold">Exotic tastes
+            at your
+            doorste</div>
+          <button
+            class="absolute  justify-center items-center mx-96 top-60 inline-block cursor-pointer rounded-md bg-orange-500 px-4 py-3 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-gray-900">
+            Button
+          </button>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full">
+          <img class="opacity-50" src="/images/banner1.png" class="w-full" />
+          <div class="absolute justify-center mx-96 top-28 text-black text-2xl lg:text-5xl font-extrabold">Exotic tastes
+            at your
+            doorste</div>
+          <button
+            class="absolute  justify-center items-center mx-96 top-60 inline-block cursor-pointer rounded-md bg-orange-500 px-4 py-3 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-gray-900">
+            Button
+          </button>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class=" hidden md:block  lg: max-w-[60%] bg-white drop-shadow-xl mx-auto mb-16 p-12 -mt-24 ">
+      <div class="flex justify-center items-center mx-auto max-h-[50px] gap-12  lg:flex ">
+        <div class="">
+          <img src="images/fruit1.png" alt="">
+          <h3 class="text-xs text-center lg:text-2xl">Strawberry</h3>
+        </div>
+        <div class="">
+          <img src="images/fruit2.png" alt="">
+          <h3 class="text-xs text-center lg:text-xl">Orange</h3>
+        </div>
+        <div class="">
+          <img src="images/fruit3.png" alt="">
+          <h3 class="text-xs text-center lg:text-xl">Mango</h3>
+        </div>
+        <div class="">
+          <img src="images/fruit4.png" alt="">
+          <h3 class="text-xs text-center lg:text-xl">Strawberry</h3>
+        </div>
+        <div class="">
+          <img src="images/fruit5.png" alt="">
+          <h3 class="text-xs text-center lg:text-xl">Mango</h3>
+        </div>
+       
+    
+      
+
+      </div>
+
+
+
+
+
+    </section>
+
+
+
+
+  </header>
+  <main>
+
+
+  </main>
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>
