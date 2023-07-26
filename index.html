@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<html data-theme="light">
-
-</html>
-
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +7,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
 </head>
 
@@ -41,7 +37,7 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
                 </svg>
               </label>
-              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-24">
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 -mx-11 shadow bg-base-100 rounded-box w-24">
                 <li><a>Home</a></li>
                 <li><a>About Us</a></li>
                 <li><a>Shop</a></li>
@@ -77,7 +73,7 @@
             doorste</div>
           <button
             class="absolute  justify-center items-center mx-96 top-60 inline-block cursor-pointer rounded-md bg-orange-500 px-4 py-3 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-gray-900">
-            Button
+           
           </button>
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide4" class="btn btn-circle">❮</a>
@@ -155,43 +151,135 @@
   </header>
   <main class="max-w-[80%] mx-auto my-24">
     <div class="grid grid-cols-1 lg:grid-cols-2 justify-between items-center ">
-    <div class="space-y-5">
-      <h2 class="text-xl font-extrabold lg:text-3xl">Deal of the day</h2>
-      <p class="text-xs">Contrary to popular belief, is not simply random text. It has roots in a piece of classical 
-        Latin literature from 45 BC, making it over 2000 years old</p>
-    </div>
+      <div class="space-y-5">
+        <h2 class="text-xl font-extrabold lg:text-3xl">Deal of the day</h2>
+        <p class="text-xs">Contrary to popular belief, is not simply random text. It has roots in a piece of classical
+          Latin literature from 45 BC, making it over 2000 years old</p>
+      </div>
 
-    <div class="">
-      <div class="grid grid-flow-col gap-5 text-center auto-cols-max lg:justify-end font-extrabold">
-        <div class="flex flex-col">
-          <span class="countdown font-mono text-5xl">
-            <span style="--value:15;"></span>
-          </span>
-          days
-        </div> 
-        <div class="flex flex-col">
-          <span class="countdown font-mono text-5xl">
-            <span style="--value:10;"></span>
-          </span>
-          hours
-        </div> 
-        <div class="flex flex-col">
-          <span class="countdown font-mono text-5xl">
-            <span style="--value:24;"></span>
-          </span>
-          min
-        </div> 
-        <div class="flex flex-col">
-          <span class="countdown font-mono text-5xl">
-            <span style="--value:18;"></span>
-          </span>
-          sec
+      <div class="">
+        <div class="grid grid-flow-col gap-5 text-center auto-cols-max lg:justify-end font-extrabold">
+          <div class="flex flex-col">
+            <span class="countdown font-mono text-5xl">
+              <span style="--value:15;"></span>
+            </span>
+            days
+          </div>
+          <div class="flex flex-col">
+            <span class="countdown font-mono text-5xl">
+              <span style="--value:10;"></span>
+            </span>
+            hours
+          </div>
+          <div class="flex flex-col">
+            <span class="countdown font-mono text-5xl">
+              <span style="--value:24;"></span>
+            </span>
+            min
+          </div>
+          <div class="flex flex-col">
+            <span class="countdown font-mono text-5xl">
+              <span style="--value:18;"></span>
+            </span>
+            sec
+          </div>
         </div>
       </div>
     </div>
-    </div>
 
+   
 
+    </section>
+    <section class="max-w-[90%] mx-auto my-24">
+     <div class="grid grid-cols-1 justify-center items-center lg:grid-cols-4 gap-20">
+      <div class="card w-72 bg-base-100 border-2">
+        <figure class="px-10 pt-10">
+          <img src="./images/fruit6.png" alt="" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">12.85$-18.98$</h2>
+         <span>____________________________</span>
+         <p class="text-xs">Apples</p>
+         <div class="rating">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        </div>
+         
+          <div class="card-actions text-orange-500">
+            <a href="">Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="card w-72 bg-base-100 border-2">
+        <figure class="px-10 pt-8">
+          <img src="./images/fruit7.png" alt="" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">12.85$-18.98$</h2>
+         <span>____________________________</span>
+         <p class="text-xs">Orange</p>
+         <div class="rating">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        </div>
+         
+          <div class="card-actions text-orange-500">
+            <a href="">Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="card w-72  bg-base-100 border-2">
+        <figure class="px-10 pt-10">
+          <img src="./images/fruit8.png" alt="" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">12.85$-18.98$</h2>
+         <span>____________________________</span>
+         <p class="text-xs">Red Dragon</p>
+         <div class="rating">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        </div>
+         
+          <div class="card-actions text-orange-500">
+            <a href="">Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="card w-72 bg-base-100 border-2">
+        <figure class="px-10 pt-10">
+          <img src="./images/fruit9.png" alt="" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">12.85$-18.98$</h2>
+         <span>____________________________</span>
+         <p class="text-xs">Banana</p>
+         <div class="rating">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        </div>
+         
+          <div class="card-actions text-orange-500">
+            <a href="">Details</a>
+          </div>
+        </div>
+      
+      </div>
+      <div class=" mx-auto lg:mx-96"> <button class="btn btn-error ">Shop all</button></div>
+     </div>
+    </section>
   </main>
   <footer>
 
